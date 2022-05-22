@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket-Fighte</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/fontes.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+<body>
+    <main>
+
+        <div class="div_player_01">
+            <div class="joao_carlos">
+                <h1 class="autor">João Carlos Lemos</h1>
+                <ul class="lista-redes-sociais">
+                    <li class="rede-social">
+                        <a href="https://codepen.io/nerv-ikari" target="_blank">
+                            <img class="rede-social-img" src="./src/imagens/logo-codepen.png">
+                        </a>
+                    </li>
+
+                    <li class="rede-social">
+                        <a href="https://www.facebook.com/nerv.ikari" target="_blank">
+                            <img class="rede-social-img" src="./src/imagens/logo-facebook.png">
+                        </a>
+                    </li>
+
+                    <li class="rede-social">
+                        <a href="https://github.com/JoaoCarlosLemos" target="_blank">
+                            <img class="rede-social-img" src="./src/imagens/logo-github.png">
+                        </a>
+                    </li>
+
+                    <li class="rede-social">
+                        <a href="https://www.instagram.com/nervikari" target="_blank">
+                            <img class="rede-social-img" src="./src/imagens/logo-instagram.png">
+                        </a>
+                    </li>
+
+                    <li class="rede-social">
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-carlos-da-silva-lemos-85a926225" target="_blank">
+                            <img class="rede-social-img" src="./src/imagens/logo-linkedin.png">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <img class="img_jogador_1 tocar" src="./src/imagens/ryu.png" id="personagem-jogador-1">
+            <div class="nome">
+                <h2 id="nome-jogador-1">Ryu</h2>
+            </div>
+        </div>
+
+        <div class="div_player_select">
+
+            <audio autoplay src="src/audios/mode-select.mp3"></audio>
+            <button type="submit" class="btn-pausar" onclick="pausarAudio()">
+                <img  class="img_pausar" src="./src/imagens/pause.png">
+            </button>
+            <button type="submit" class="btn-tocar" onclick="tocarAudio()">
+                <img  class="img_tocar" src="./src/imagens/play.png">
+            </button>
+
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="ryu" data-name="Ryu">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ryu.jpg">
+                </li>
+                    
+                <li class="personagem selecionado2" id="ken" data-name="Ken">
+                    <span class="tag">1P</span>
+                    <span class="tag2">2P</span>
+                    <img src="./src/imagens/ken.jpg">
+                </li>
+                    
+                <li class="personagem" id="chun-li" data-name="Chun-Li">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/chun-li.jpg">
+                </li>
+                    
+                    <li class="personagem" id="zangief" data-name="Zangief">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/zangief.jpg">
+                    </li>
+                    
+                <li class="personagem" id="sakura" data-name="Sakura">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/sakura.jpg">
+                </li>
+                    
+                <li class="personagem" id="ibuki" data-name="Ibuki">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ibuki.jpg">
+                </li>
+                    
+                <li class="personagem" id="dan" data-name="Dan">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/dan.jpg">
+                </li>
+                    
+                <li class="personagem" id="gouki" data-name="Gouki">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/gouki.jpg">
+                </li>
+                    
+                <li class="personagem" id="tabasa" data-name="Tabasa">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/tabasa.jpg">
+                </li>
+                    
+                <li class="personagem" id="felicia" data-name="Felicia">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/felicia.jpg">
+                </li>
+                    
+                <li class="personagem" id="morrigan" data-name="Morrigan">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/morrigan.jpg">
+                </li>
+                    
+                <li class="personagem" id="lei-lei" data-name="Lei Lei">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/lei-lei.jpg">
+                </li>
+
+                
+                    
+                </ul>
+
+                <audio id="beep" preload="auto">
+                    <source src="./src/audios/beep.mp3">
+                </audio>
+
+        </div>
+
+
+        <div class="div_player_02">
+               
+            <img class="dev_em_dobro_img" src="./src/imagens/dev_em_dobro.png">
+
+            <img class="img_jogador_2" src="./src/imagens/ken2.png" id="personagem-jogador-2">
+            <div class="nome2">
+                <h2 id="nome-jogador-2">Ken</h2>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./src/javascript/index.js"></script>
+
+    <script>
+        var beepOne= $("#beep")[0];
+        $(".personagem").mouseenter(function(){
+            beepOne.play();
+        });
+    </script>
+
+</body>
+</html>
