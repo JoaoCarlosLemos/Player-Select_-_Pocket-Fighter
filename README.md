@@ -4,7 +4,7 @@ Projeto desenvolvido seguindo modelo apresentado em live do Youtube do canal "De
 
 Projeto de imersão para desenvolvedores denominado "Map Dev Week" - Maio/2022
 
-<div>
+<div aligh="center">
   <div align="left">
     <h3>Projeto  Referência</h3></br>
     <a href="https://devemdobro.github.io/projeto-marvel-mapadev-week-final/" target="_blank">      
