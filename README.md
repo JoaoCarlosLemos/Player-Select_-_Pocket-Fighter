@@ -9,6 +9,6 @@ Projeto  Referência                                                   Meu Proje
 https://devemdobro.github.io/projeto-marvel-mapadev-week-final/       https://joaocarloslemos.github.io/Player-Select_-_Pocket-Fighter/
 
 <div align="center">
-  <img widht="200px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/map_dev_week.PNG">
-  <img widht="200px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/Player_Select_-_Pocket_Fighter.PNG">
+  <img width="200px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/map_dev_week.PNG">
+  <img width="200px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/Player_Select_-_Pocket_Fighter.PNG">
 </div>
