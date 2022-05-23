@@ -11,7 +11,7 @@ Projeto de imersão para desenvolvedores denominado "Map Dev Week" - Maio/2022
     <img width="500px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/map_dev_week.PNG">
   </div>
 
-  <div >
+  <div align="right">
     Meu Projeto 
     https://joaocarloslemos.github.io/Player-Select_-_Pocket-Fighter/
     <img width="500px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/Player_Select_-_Pocket_Fighter.PNG">
