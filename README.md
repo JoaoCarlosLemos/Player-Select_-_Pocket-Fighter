@@ -6,13 +6,13 @@ Projeto de imersão para desenvolvedores denominado "Map Dev Week" - Maio/2022
 
 <div>
   <div align="left">
-    Projeto  Referência</br>                                                    
+    <h3>Projeto  Referência</h3></br>                                                    
     https://devemdobro.github.io/projeto-marvel-mapadev-week-final/       
     <img width="500px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/map_dev_week.PNG">
   </div>
 
   <div align="right">
-    Meu Projeto </br>
+  <h3>Meu Projeto</h3></br>
     https://joaocarloslemos.github.io/Player-Select_-_Pocket-Fighter/
     <img width="500px" src="https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/Player_Select_-_Pocket_Fighter.PNG">
   </div>
